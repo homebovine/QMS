@@ -329,7 +329,7 @@ body:
         preventive action in place and active? QMSR §820.100(a)(7) explicitly
         requires effectiveness verification — this field provides the scheduled
         evidence that it will happen.
-     value: "YYYY-MM-DD (typically 4-8 weeks after closure)"
+     placeholder: "YYYY-MM-DD (typically 4-8 weeks after closure)"
     validations:
       required: true
 
