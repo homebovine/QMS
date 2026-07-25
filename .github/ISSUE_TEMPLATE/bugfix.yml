@@ -252,7 +252,7 @@ body:
         Production Impact Assessment above. This sign-off is the documented
         evidence that the security incident was assessed per §164.308(a)(6).
         Enter N/A if this is not a production defect.
-      placeholder: "Full name: [CTO name] | Date: YYYY-MM-DD | N/A — not a production defect"
+      value: "Full name: [CTO name] | Date: YYYY-MM-DD | N/A — not a production defect"
     validations:
       required: true
 
