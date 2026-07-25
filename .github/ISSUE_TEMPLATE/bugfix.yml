@@ -177,7 +177,7 @@ body:
         Date the defect was first present in production (approximate if unknown)
         and date the fix was deployed. Required to assess the MDR 30-day reporting
         window and HIPAA breach exposure period. Enter N/A with reason if not applicable.
-      placeholder: "First in production: YYYY-MM-DD | Fix deployed: YYYY-MM-DD | N/A — detected at [stage]"
+      value: "First in production: YYYY-MM-DD | Fix deployed: YYYY-MM-DD | N/A — detected at [stage]"
     validations:
       required: true
 
