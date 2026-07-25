@@ -503,7 +503,7 @@ body:
         must include the BUG-ID from Section 1 in its traceability section.
         If multiple PRs implement this fix, list all URLs separated by a line break.
         Do not close this issue before the implementing PR is merged.
-      placeholder: "https://github.com/HippoClinicInc/[repo]/pull/[number]"
+      value: "https://github.com/HippoClinicInc/[repo]/pull/[number]"
     validations:
       required: true
 
