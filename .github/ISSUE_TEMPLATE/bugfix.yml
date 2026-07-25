@@ -189,7 +189,7 @@ body:
         List all HippoMind version numbers that contained this defect in production.
         Required for FDA MDR assessment and to determine scope of any customer
         notification obligation. Enter N/A if not a production defect.
-      placeholder: "e.g. v2.4.0, v2.4.1 | N/A — not a production defect"
+      value: "e.g. v2.4.0, v2.4.1 | N/A — not a production defect"
     validations:
       required: true
 
