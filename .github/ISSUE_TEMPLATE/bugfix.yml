@@ -1,11 +1,6 @@
 name: "Bug / Defect Fix"
 description: >
-  Use this template for any defect or bug correction in HippoMind.
-  This record serves as the QMS change record under FDA QMSR (21 CFR Part 820),
-  HIPAA (45 CFR §164), ISO 13485:2016, IEC 62304, and ISO 14971.
-  GitHub issue number = stable QMS record ID. Do not change the issue title
-  after creation — the title is part of the permanent QMS record.
-  HippoMind platform classification: IEC 62304 Class B (moderate risk, Class II SaMD).
+  Report and track a software defect as a QMS change record.
 title: "[BUG] "
 labels: ["type: bug-fix"]
 assignees: []
