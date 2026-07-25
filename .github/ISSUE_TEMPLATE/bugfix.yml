@@ -283,7 +283,7 @@ body:
         code pattern error, a review miss, or a process gap. One sentence minimum.
         QMSR §820.100(a)(2) explicitly requires root cause identification — a fix
         description alone does not satisfy this requirement.
-      placeholder: |
+      value: |
         Root cause: [One sentence answering WHY this defect existed]
         Example: "No unit test existed covering the case where oneDObjectData is
         passed by reference into an immer draft without shallow cloning."
