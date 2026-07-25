@@ -28,7 +28,7 @@ body:
         Enter the stable ID for this defect record. Format: BUG-[GitHub issue number].
         Example: BUG-2819. This ID must be used in all GDrive records, PR descriptions,
         and commit messages referencing this fix. It never changes after creation.
-      value: "BUG-[GitHub issue number] e.g. BUG-2819"
+      placeholder: "BUG-[GitHub issue number] e.g. BUG-2819"
     validations:
       required: true
 
@@ -177,7 +177,7 @@ body:
         Date the defect was first present in production (approximate if unknown)
         and date the fix was deployed. Required to assess the MDR 30-day reporting
         window and HIPAA breach exposure period. Enter N/A with reason if not applicable.
-      value: "First in production: YYYY-MM-DD | Fix deployed: YYYY-MM-DD | N/A — detected at [stage]"
+      placeholder: "First in production: YYYY-MM-DD | Fix deployed: YYYY-MM-DD | N/A — detected at [stage]"
     validations:
       required: true
 
@@ -189,7 +189,7 @@ body:
         List all HippoMind version numbers that contained this defect in production.
         Required for FDA MDR assessment and to determine scope of any customer
         notification obligation. Enter N/A if not a production defect.
-      value: "e.g. v2.4.0, v2.4.1 | N/A — not a production defect"
+      placeholder: "e.g. v2.4.0, v2.4.1 | N/A — not a production defect"
     validations:
       required: true
 
@@ -252,7 +252,7 @@ body:
         Production Impact Assessment above. This sign-off is the documented
         evidence that the security incident was assessed per §164.308(a)(6).
         Enter N/A if this is not a production defect.
-      value: "Full name: [CTO name] | Date: YYYY-MM-DD | N/A — not a production defect"
+      placeholder: "Full name: [CTO name] | Date: YYYY-MM-DD | N/A — not a production defect"
     validations:
       required: true
 
@@ -283,7 +283,7 @@ body:
         code pattern error, a review miss, or a process gap. One sentence minimum.
         QMSR §820.100(a)(2) explicitly requires root cause identification — a fix
         description alone does not satisfy this requirement.
-      value: |
+      placeholder: |
         Root cause: [One sentence answering WHY this defect existed]
         Example: "No unit test existed covering the case where oneDObjectData is
         passed by reference into an immer draft without shallow cloning."
@@ -307,7 +307,7 @@ body:
         implementable — not a general statement like "improve code quality."
         One sentence minimum. QMSR §820.100(a)(3) requires a preventive action
         separate from the corrective action (the fix itself).
-      value: |
+      placeholder: |
         Preventive action: [One sentence describing what will prevent recurrence]
         Example: "Add a unit test asserting shallow-clone decoupling for all
         handleSnapshotToReport callers and add it to the CI gate so future
@@ -329,7 +329,7 @@ body:
         preventive action in place and active? QMSR §820.100(a)(7) explicitly
         requires effectiveness verification — this field provides the scheduled
         evidence that it will happen.
-     placeholder: "YYYY-MM-DD (typically 4-8 weeks after closure)"
+      placeholder: "YYYY-MM-DD (typically 4-8 weeks after closure)"
     validations:
       required: true
 
@@ -359,7 +359,7 @@ body:
         Each criterion listed here must have a corresponding row in the Test
         Evidence table in Section 7. The number of criteria rows must match
         the number of test evidence rows.
-      value: |
+      placeholder: |
         - [ ] [Criterion 1 — specific, testable statement of expected behaviour after fix]
         - [ ] [Criterion 2]
         - [ ] [Criterion 3 — regression: existing functionality unaffected by this fix]
@@ -503,7 +503,7 @@ body:
         must include the BUG-ID from Section 1 in its traceability section.
         If multiple PRs implement this fix, list all URLs separated by a line break.
         Do not close this issue before the implementing PR is merged.
-      value: "https://github.com/HippoClinicInc/[repo]/pull/[number]"
+      placeholder: "https://github.com/HippoClinicInc/[repo]/pull/[number]"
     validations:
       required: true
 
@@ -567,7 +567,7 @@ body:
         Do not paste a URL that points to an empty or incomplete folder.
         Required for QMSR §820.40 record control and 21 CFR Part 11 §11.10(b)
         record retrieval obligations.
-      value: "https://drive.google.com/drive/folders/[folder-id]"
+      placeholder: "https://drive.google.com/drive/folders/[folder-id]"
     validations:
       required: true
 
