@@ -307,7 +307,7 @@ body:
         implementable — not a general statement like "improve code quality."
         One sentence minimum. QMSR §820.100(a)(3) requires a preventive action
         separate from the corrective action (the fix itself).
-      placeholder: |
+      value: |
         Preventive action: [One sentence describing what will prevent recurrence]
         Example: "Add a unit test asserting shallow-clone decoupling for all
         handleSnapshotToReport callers and add it to the CI gate so future
