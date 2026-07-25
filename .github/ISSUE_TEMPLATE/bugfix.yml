@@ -28,7 +28,7 @@ body:
         Enter the stable ID for this defect record. Format: BUG-[GitHub issue number].
         Example: BUG-2819. This ID must be used in all GDrive records, PR descriptions,
         and commit messages referencing this fix. It never changes after creation.
-      placeholder: "BUG-[GitHub issue number] e.g. BUG-2819"
+      value: "BUG-[GitHub issue number] e.g. BUG-2819"
     validations:
       required: true
 
