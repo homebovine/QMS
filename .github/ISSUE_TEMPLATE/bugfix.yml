@@ -14,7 +14,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Section 1 — Defect Identification
+        ##Section 1 — Defect Identification
         > **Purpose:** Establish a stable, traceable identity for this defect record.
         > The GitHub issue number is the permanent QMS Record ID — it is non-editable
         > and serves as the unique identifier across GitHub, GDrive, and all QMS references.
