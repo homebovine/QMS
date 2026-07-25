@@ -359,7 +359,7 @@ body:
         Each criterion listed here must have a corresponding row in the Test
         Evidence table in Section 7. The number of criteria rows must match
         the number of test evidence rows.
-      placeholder: |
+      value: |
         - [ ] [Criterion 1 — specific, testable statement of expected behaviour after fix]
         - [ ] [Criterion 2]
         - [ ] [Criterion 3 — regression: existing functionality unaffected by this fix]
