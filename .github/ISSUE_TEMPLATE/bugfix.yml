@@ -103,12 +103,12 @@ body:
     id: description
     attributes:
       label: Defect Description & Fix
-      description: >
+      description: |
         Describe: (1) what is broken and how it manifests, (2) the root symptom
         observed by the user or developer, (3) what the fix does to correct it.
         Be specific — vague descriptions result in incomplete CAPA records and
         are a direct audit finding under QMSR §820.100.
-      placeholder: |
+      placeholder: 
         **What is broken:**
         [Describe the defect — what behaviour is incorrect and how it manifests]
 
