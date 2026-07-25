@@ -567,7 +567,7 @@ body:
         Do not paste a URL that points to an empty or incomplete folder.
         Required for QMSR §820.40 record control and 21 CFR Part 11 §11.10(b)
         record retrieval obligations.
-      placeholder: "https://drive.google.com/drive/folders/[folder-id]"
+      value: "https://drive.google.com/drive/folders/[folder-id]"
     validations:
       required: true
 
