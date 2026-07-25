@@ -13,7 +13,7 @@ body:
 
   - type: markdown
     attributes:
-      description: |
+      value: |
         ## Section 1 — Defect Identification
         > **Purpose:** Establish a stable, traceable identity for this defect record.
         > The GitHub issue number is the permanent QMS Record ID — it is non-editable
@@ -99,7 +99,7 @@ body:
         > impact, and the fix approach.
         > *Regulatory basis: QMSR §820.30(c) · QMSR §820.100*
 
-  - type: textarea
+  - type: markdown
     id: description
     attributes:
       label: Defect Description & Fix
