@@ -108,7 +108,7 @@ body:
         observed by the user or developer, (3) what the fix does to correct it.
         Be specific — vague descriptions result in incomplete CAPA records and
         are a direct audit finding under QMSR §820.100.
-      placeholder: 
+      value: |
         **What is broken:**
         [Describe the defect — what behaviour is incorrect and how it manifests]
 
